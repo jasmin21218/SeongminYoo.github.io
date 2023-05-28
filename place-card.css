@@ -1,0 +1,22 @@
+.place-card-container {
+  width: 300px;
+  height: 313px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.place-card-image {
+  width: 328px;
+  height: 332px;
+  object-fit: cover;
+}
+@media(max-width: 767px) {
+  .place-card-container {
+    width: 200px;
+  }
+}
+@media(max-width: 479px) {
+  .place-card-container {
+    width: 300px;
+  }
+}
